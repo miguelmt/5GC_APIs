@@ -140,7 +140,7 @@ paths:
                 $ref: '#/components/schemas/NFProfile'
           headers:
             Location:
-              description: 'Contains the URI of the newly created resource, according to the structure: {apiRoot}/nudsf\-dsm/v1/nf-instances/{nfInstanceId}'
+              description: 'Contains the URI of the newly created resource, according to the structure: {apiRoot}/nudsf-dsm/v1/nf-instances/{nfInstanceId}'
               required: true
               schema:
                 type: string
@@ -250,7 +250,7 @@ paths:
                 $ref: '#/components/schemas/SubscriptionData'
           headers:
             Location:
-              description: 'Contains the URI of the newly created resource, according to the structure: {apiRoot}/nudsf\-dsm/v1/subscriptions/{subscriptionId}'
+              description: 'Contains the URI of the newly created resource, according to the structure: {apiRoot}/nudsf-dsm/v1/subscriptions/{subscriptionId}'
               required: true
               schema:
                 type: string
@@ -402,7 +402,7 @@ components:
         clientCredentials: 
           tokenUrl: '/oauth2/token'
           scopes:
-            nudsf\-dsm: Access to the Nudsf_DSManagement API
+            nudsf-dsm: Access to the Nudsf_DSManagement API
   schemas:
     NFProfile:
       type: object
